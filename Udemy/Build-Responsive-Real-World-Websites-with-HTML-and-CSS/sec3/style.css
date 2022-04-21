@@ -41,10 +41,33 @@ li {
     font-size: 20px;
 }
 
-footer p {
+/* footer p {
     font-size:16px;
-}
+} */
 
+/* 
 article header p {
     font-style: italic;
+} */
+
+#author {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#copyright { 
+    font-style: italic;
+}
+/* The different between class and id 
+ID => Can't give multiple elemtens the same id
+Class => Can give many elements the same class 
+*/
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
 }
