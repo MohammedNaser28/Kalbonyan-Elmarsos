@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- This is element tell the browser the file is html -->
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<!-- The opening parent element that have the head and body -->
+<head>
+    <!-- The head element not render by the browser in the visible part,,,, opening tag -->
+    <!-- This element is use to linke css file with html file-->
+    <link href="style.css" rel="stylesheet" />
+
+    <meta charset="UTF-8"/> <!-- I write this to render the emoji -->
+    <title>The Basic Language of the Web: HTML</title>
+    <!-- The title that'll appear in the title of the page -->
+</head>
+<!--  The head element not render by the browser in the visible part ,,,, closing tag-->
+
+<body>
+<!-- The body element render by the browser in the visible part ,,, opening tag-->
+<!--<h1>The Basic Language of the Web: HTML</h1> &lt;!&ndash; Primary heading  &ndash;&gt;-->
+<!--<h2>The Basic Language of the Web: HTML</h2> &lt;!&ndash; secondary heading  &ndash;&gt;-->
+<!--<h3>The Basic Language of the Web: HTML</h3>-->
+<!--<h4>The Basic Language of the Web: HTML</h4>-->
+<!--<h5>The Basic Language of the Web: HTML</h5>-->
+<!--<h6>The Basic Language of the Web: HTML</h6>-->
+<header> <!-- This tell the browser all this is the head of the page -->
+    <h1>📘 The Code Magazine</h1> <!-- Primary heading  -->
+    <nav> <!-- This make invisible box contain those elements-->
+        <a href="blog.html">BLOG</a>
+        <a href="Challenge%232.html" target="_blank">Challenges</a> <!-- There's no go anywhere-->
+        <a href="#"> FlexBox</a> <!-- There's no go anywhere-->
+        <a href="#">CSS Grid</a> <!-- There's no go anywhere-->
+    </nav>
+</header>
+<article>
+
+    <header>
+        <h2>The Basic Language of the Web: HTML</h2> <!-- secondary heading  -->
+
+        <!-- image with some attributes'  src = we use it to tell the browser where is our image ,
+            alt we use it to tell the search engine what is this image
+            width and height we use them to specify the demolitions of image -->
+        <img src="img/laura-jones.jpg"
+             alt=" Headshot of Laura jones"
+             width="50"
+             height="50"/>
+
+
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p> <!-- paragraph element -->
+
+        <img src="img/post-img.jpg"
+             alt="HTML code on a screen"
+             width="500"
+             height="200"/>
+    </header>
+    <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the
+        languages of the web.
+    </p>
+    <!-- strong element to bold the word  and emphasis it-->
+    <p>
+        In this post, let's focus on HTML. We will learn what HTML is all about,
+        and why you too should learn it.
+    </p>
+    <h3>What is HTML?</h3>
+    <p>
+        HTML stands for <strong>H</strong>yper <strong>T</strong>ext
+        <strong> M</strong>arkup <strong> L</strong>anguage. It's a markup
+        language that web developers use to structure and describe the content of
+        a webpage (not a programming language).
+    </p>
+    <p>
+        HTML consists of elements that describe different types of content:
+        paragraphs, links, headings, images, video, etc. Web browsers understand
+        HTML and render HTML code as websites.
+    </p>
+    <p>In HTML, each element is made up of 3 parts:</p>
+    <ol> <!-- List with number  -->
+        <li>The opening tag</li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+    </ol>
+
+    <p>You can learn more at
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">
+            MDN Web Docs
+        </a>
+        <!-- a = anker ,between the open tag and closing tag we write the text we want to put link in it -->
+        <!-- target attribute  is used to open the link in a new tap-->
+        <!-- href attribute is used to put a link in it -->
+    </p>
+
+    <h3>Why should you learn HTML?</h3>
+    <p>
+        There are countless reasons for learning the fundamental language of the web. Here are 5 of them:
+    </p>
+    <ul> <!-- Unordered list -->
+        <li>To be able to use the fundamental web dev language</li>
+        <li>To hand-craft beautiful websites instead of relying on tools like WordPress or Wix</li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun 😃</li>
+    </ul>
+
+    <p>Hopefully you learned something new here. See you next time!</p>
+</article>
+<!--  Challenge 1-->
+<aside>
+    <h4>Related Posts</h4>
+    <ul>
+        <li>
+            <img src="img/related-1.jpg" alt="related 1" width="75" height="75"/>
+            <a href="#">How to learn Web Development?</a>
+            <p>By Jones Schmedtmann</p>
+        </li>
+        <li>
+            <img src="img/related-2.jpg" alt="related 2" width="75" height="75"/>
+            <a href="#">The unknown power of CSS</a>
+            <p>By Jim Dillon</p>
+        </li>
+        <li>
+            <img src="img/related-3.jpg" alt="related 3" width="75" height="75"/>
+            <a href="#">Why JavaScript is Awesome?</a>
+            <p>By Matilda</p>
+        </li>
+    </ul>
+</aside>
+<footer>
+    Copyright &copy; <!-- this is called html entity --> 2027 by The code Magazine.
+</footer>
+</body>
+<!-- The body element render by the browser in the visible part ,,, closing tag-->
+</html>
