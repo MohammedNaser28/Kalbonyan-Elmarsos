@@ -5,10 +5,14 @@ h4,
 p,
 li {
     font-family: sans-serif;
+    color: #444 /* This's a shorthand hexidecimal */;
 }
 
+h1,h2,h3 {
+    color: #1098ad; /* This's a hexidecimal */
+}
 h1 {
-    color: blue;
+    /* color: blue; */
     font-size: 26px;
     /*This is pixel and there're many unit css others */
     text-transform: uppercase;
@@ -70,4 +74,58 @@ Class => Can give many elements the same class
 
 .related {
     list-style: none;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad; /* Shorthand border */
+    border-bottom: 5px solid #1098ad; /* Shorthand border */
+}
+
+/* .first-li {
+    font-weight: bold;
+} */
+
+li:first-child { /*  This's pesudo class*/
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+/* li:nth-child(2) {
+    color:red; 
+} */
+/* This is won't work */
+article p:first-child {
+    color: red;
+}
+
+
+/* Now we will style Hyperlinke*/
+
+a:link {
+    color: #1098ad; /* This's target the anker  has link*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1098ad;
+}
+
+
+a:hover {
+    color: orangered ;
+    font-weight: bold;
+    text-decoration: underline dotted orangered;
+}
+
+a:active {
+    background-color: black ;
+    font-style: italic;
 }
