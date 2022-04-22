@@ -22,11 +22,12 @@ This initiative aims to encourage and graduate junior programmers in web develop
 - - - -
 <!-- Fundamentals -->
 <span id="Fundamentals"> </span>
+
 # Learn Programing Fundamentals ,HTMl and CSS
 
 ![100%](https://progress-bar.dev/100/?title=Done)
 <br />
-- ## Programming Foundations series and HTML and CSS from Linkdin Learning
+- ## Programming Foundations series  from Linkdin Learning
 
     - [x] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` in progress` ` 2h 6m 40s` - 01 - [Programming Foundations: Fundamentals](Linkedin-Learning/Programming-Foundations-Fundamentals/)
     - [x] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` in progress` ` 2h 4m 44s` - 02 - [Programming Foundations: Beyond the Fundamentals](Linkedin-Learning/Programming-Foundations-Beyond-the-Fundamentals/)
@@ -47,12 +48,21 @@ This initiative aims to encourage and graduate junior programmers in web develop
 <!-- MERN -->
 
 <span id="MERN"></span>
-# MERN Stack
+
+# HTML and CSS and MERN Stack from Udemy
+
 ![100%](https://progress-bar.dev/100/?title=Done)
-<br />
-- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `29h 30m` - 13 - [The Modern JavaScript Bootcamp](Udemy/The%20Modern%20JavaScript%20Bootcamp/) 
-- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `39h` - 14 - [The Complete React Developer Course](Udemy/The%20Complete%20React%20Developer%20Course)
-- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `35h` - 15 - [The Complete Node.js Developer Course (3rd Edition)](Udemy/The%20Complete%20Node.js%20Developer%20Course/)
+<br/>
+
+## HTML and CSS
+
+- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `37h 50m` - 11
+- [Build Responsive Real-World Websites with HTML and CSS](Udemy/Build-Responsive-Real-World-Websites-with-HTML-and-CSS/)
+## MERN Stack
+
+- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `29h 30m` - 12 - [The Modern JavaScript Bootcamp](Udemy/The%20Modern%20JavaScript%20Bootcamp/) 
+- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `39h` - 13 - [The Complete React Developer Course](Udemy/The%20Complete%20React%20Developer%20Course)
+- [x] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) `in progress` `35h` - 14 - [The Complete Node.js Developer Course (3rd Edition)](Udemy/The%20Complete%20Node.js%20Developer%20Course/)
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-157h30m-blue">
 <br />
